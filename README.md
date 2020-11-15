@@ -1,3 +1,11 @@
+# <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></code> Конспект, шпаргалка по хукам в React.js.
+
+## Основан на курсе React Hooks - Полный Курс (Про Все Хуки!) от [Владилен Минин](https://youtu.be/9KJxaFHotqI)
+
+При оформлении использовалась библиотека [Bootstrap](https://getbootstrap.com/).
+
+Ниже инструкции созданные при создании react проекта:
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
