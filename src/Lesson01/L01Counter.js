@@ -9,7 +9,7 @@ function L01_counter() {
       <h3>
         Первый пример.
         <WatchVideoLessonFromSecond second={294} />
-        <GitHubFile />
+        <GitHubFile href="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson01/L01CounterBase.js" />
       </h3>
       <p>
         Значение счетчика добавляем в состояние компоненты.
