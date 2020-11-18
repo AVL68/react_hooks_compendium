@@ -2,6 +2,7 @@ import React from "react";
 import WatchVideoLessonFromSecond from "../common/WatchVideoLessonFromSecond";
 import L01CounterBase from "./L01CounterBase";
 import GitHubFile from "../common/GitHubFile";
+import ReactjsOrg from "../common/ReactjsOrg";
 
 function L01_counter() {
   return (
@@ -25,7 +26,10 @@ function L01_counter() {
       <L01CounterBase />
       <h4>Дополнительно:</h4>
       <p>Для инициализаии состояния, useState используем в начале компоненты.</p>
-      <p>Не используйте хуки внутри циклов, условных операторов или вложенных функций. </p>
+      <p>
+        Не используйте хуки внутри циклов, условных операторов или вложенных функций.
+        <ReactjsOrg href="https://ru.reactjs.org/docs/hooks-rules.html#only-call-hooks-from-react-functions" />
+      </p>
       <p>Использовать useState для инициализации нового состояния в компаненте можно сколько сколько угодно раз.</p>
     </>
   );
