@@ -28,7 +28,7 @@ function L01_counter() {
       <p>Для инициализаии состояния, useState используем в начале компоненты.</p>
       <p>
         Не используйте хуки внутри циклов, условных операторов или вложенных функций.
-        <ReactjsOrg href="https://ru.reactjs.org/docs/hooks-rules.html#only-call-hooks-from-react-functions" />
+        <ReactjsOrg href="https://ru.reactjs.org/docs/hooks-rules.html#only-call-hooks-at-the-top-level" />
       </p>
       <p>Использовать useState для инициализации нового состояния в компаненте можно сколько сколько угодно раз.</p>
     </>
