@@ -13,13 +13,17 @@ function L01CounterBase() {
 
   return (
     <>
-      <h4> Счетчик: {counter}</h4>
-      <button onClick={increment} className="btn btn-primary">
-        Добавить 1
-      </button>
-      <button onClick={decrement} className="btn btn-success">
-        Убрать 1
-      </button>
+      <div className="card bg-light mb-3" style={{ width: "15.1rem" }}>
+        <div className="card-body">
+          <h4> Счетчик: {counter}</h4>
+          <button onClick={increment} className="btn btn-primary">
+            Добавить 1
+          </button>
+          <button onClick={decrement} className="btn btn-success">
+            Убрать 1
+          </button>
+        </div>
+      </div>
     </>
   );
 }

@@ -4,7 +4,7 @@ import Lesson01 from "./Lesson01/Lesson01";
 
 function App() {
   return (
-    <div>
+    <div className="container">
       <Intro />
       <Lesson01 />
     </div>
