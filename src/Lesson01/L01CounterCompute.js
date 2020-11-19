@@ -22,7 +22,7 @@ function L01CounterCompute() {
   return (
     <>
       <h4> Счетчик 1: {counter1}</h4>
-      <h4> Счетчик 2: {counter1}</h4>
+      <h4> Счетчик 2: {counter2}</h4>
       <button onClick={increment} className="btn btn-primary">
         Добавить 1
       </button>

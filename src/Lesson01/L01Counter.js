@@ -46,8 +46,8 @@ function L01_counter() {
       <L01CounterAsynchronousExample />
       <p>
         По красной кнопке счетчик не увеличивается на 2, так как испульзуется текущее состояние.
-        <br />
         <span className="text_code">
+          <br />
           {`function incrementAsynchonous() {`}
           <br />
           {`setCounter(counter + 1);`}
@@ -59,8 +59,8 @@ function L01_counter() {
       <p>
         По синей кнопке счетчик не увеличивается на 2, так как испульзуется предыдущее состояние.
         <ReactjsOrg href="https://ru.reactjs.org/docs/hooks-reference.html#functional-updates" />
-        <br />
         <span className="text_code">
+          <br />
           {`function increment() {`}
           <br />
           {`setCounter((previous) => previous + 1);`}
@@ -72,9 +72,28 @@ function L01_counter() {
       <h3>
         Третий пример.
         <WatchVideoLessonFromSecond second={907} />
-        <GitHubFile href="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson01/L01CounterAsynchronousExample.js" />
+        <GitHubFile href="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson01/L01CounterCompute.js" />
       </h3>
+      <p>Чтобы увидеть результаты начального рендеринга счетчиков откройте консоль браузера.</p>
       <L01CounterCompute />
+      <p>
+        Обратите внимание, что рендеринг первого и второго счетчика отличаются.
+        <br />
+        Функция расчета первоначального состояния первого счетчика выполняется при каждом изменении состояния.
+        <span className="text_code">
+          <br />
+          {'const [counter1, setCounter1] = useState(computeInitialCounter("1"));'}
+        </span>
+        <br />
+        Функция расчета первоначального состояния второго счетчика выполняется один раз.
+        <span className="text_code">
+          <br />
+          {'const [counter2, setCounter2] = useState(() => computeInitialCounter("2"));'}
+        </span>
+        <br />
+        Начальное состояние можно вычислять посредством функции, которая будет выполняться только при начальном рендеринге.
+        <ReactjsOrg href="https://ru.reactjs.org/docs/hooks-reference.html#lazy-initial-state" />
+      </p>
     </>
   );
 }

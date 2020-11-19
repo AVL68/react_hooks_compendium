@@ -1,7 +1,7 @@
 import React from "react";
 function GitHubFile({ href = "#" }) {
   return (
-    <a href={href} target="_blank" rel="noopener noreferrer">
+    <a href={href} target="_blank" rel="noopener noreferrer" data-toggle="tooltip" data-placement="bottom" title="Смотреть код на GitHub">
       <svg width="1em" height="0.65em" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" className="bi bi-file-play" fill="currentColor">
         <path
           fillRule="evenodd"
