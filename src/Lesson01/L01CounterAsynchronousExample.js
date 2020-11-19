@@ -1,10 +1,16 @@
 import React, { useState } from "react";
 
-function L01CounterBase() {
+function L01CounterAsynchronousExample() {
   const [counter, setCounter] = useState(0);
 
-  function increment() {
+  function incrementAsynchonous() {
     setCounter(counter + 1);
+    setCounter(counter + 1);
+  }
+
+  function increment() {
+    setCounter((previous) => previous + 1);
+    setCounter((previous) => previous + 1);
   }
 
   function decrement() {
@@ -14,8 +20,11 @@ function L01CounterBase() {
   return (
     <>
       <h4> Счетчик: {counter}</h4>
+      <button onClick={incrementAsynchonous} className="btn btn-danger">
+        Добавить 2
+      </button>
       <button onClick={increment} className="btn btn-primary">
-        Добавить 1
+        Добавить 2
       </button>
       <button onClick={decrement} className="btn btn-success">
         Убрать 1
@@ -24,4 +33,4 @@ function L01CounterBase() {
   );
 }
 
-export default L01CounterBase;
+export default L01CounterAsynchronousExample;

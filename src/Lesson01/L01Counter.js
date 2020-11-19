@@ -3,6 +3,7 @@ import WatchVideoLessonFromSecond from "../common/WatchVideoLessonFromSecond";
 import L01CounterBase from "./L01CounterBase";
 import GitHubFile from "../common/GitHubFile";
 import ReactjsOrg from "../common/ReactjsOrg";
+import L01CounterAsynchronousExample from "./L01CounterAsynchronousExample";
 
 function L01_counter() {
   return (
@@ -31,6 +32,14 @@ function L01_counter() {
         <ReactjsOrg href="https://ru.reactjs.org/docs/hooks-rules.html#only-call-hooks-at-the-top-level" />
       </p>
       <p>Использовать useState для инициализации нового состояния в компаненте можно сколько сколько угодно раз.</p>
+
+      <h3>
+        Второй пример.
+        <WatchVideoLessonFromSecond second={741} />
+        <GitHubFile href="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson01/L01CounterBase.js" />
+      </h3>
+      <p>Хук useState работает асинхронно. </p>
+      <L01CounterAsynchronousExample />
     </>
   );
 }
