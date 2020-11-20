@@ -4,8 +4,9 @@ import GitHubFile from "../common/GitHubFile";
 import ReactjsOrg from "../common/ReactjsOrg";
 import СodeHowText from "../common/СodeHowText";
 import L01CounterBase from "./L01CounterBase";
-import L01CounterAsynchronousExample from "./L01CounterAsynchronousExample";
+import L01_02_CounterAsynchronousExample from "./L01_02_CounterAsynchronousExample";
 import L01CounterCompute from "./L01CounterCompute";
+import L01_04_StateObject from "./L01_04_StateObject";
 
 function L01Сounter() {
   return (
@@ -37,18 +38,16 @@ function L01Сounter() {
         <GitHubFile href="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson01/L01CounterAsynchronousExample.js" />
       </h3>
       <p>Хук useState работает асинхронно. </p>
-      <L01CounterAsynchronousExample />
+      <L01_02_CounterAsynchronousExample />
       <p>
         По красной кнопке счетчик не увеличивается на 2, так как используется текущее состояние.
         <СodeHowText codeText={[`function incrementAsynchonous() {`, `setCounter(counter + 1);`, `setCounter(counter + 1);`]} />
       </p>
-
       <p>
         По синей кнопке счетчик увеличивается на 2, так как используется предыдущее состояние.
         <ReactjsOrg href="https://ru.reactjs.org/docs/hooks-reference.html#functional-updates" />
         <СodeHowText codeText={[`function increment() {`, `setCounter((previous) => previous + 1);`, `setCounter((previous) => previous + 1);`]} />
       </p>
-
       <h3>
         Третий пример.
         <WatchVideoLessonFromSecond second={907} />
@@ -66,6 +65,19 @@ function L01Сounter() {
         Начальное состояние можно вычислять посредством функции, которая будет выполняться только при начальном рендеринге.
         <ReactjsOrg href="https://ru.reactjs.org/docs/hooks-reference.html#lazy-initial-state" />
       </p>
+
+      <h3>
+        Четвертый пример.
+        <WatchVideoLessonFromSecond second={1083} />
+        <GitHubFile href="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson01/L01CounterCompute.js" />
+      </h3>
+      <p>
+        Стейт описан в формате объекта:
+        <СodeHowText codeText={[`const [state, Setstate] = useState({`, `title: "Счетчик",`, `date: Date.now(), });`]} />
+      </p>
+
+      <L01_04_StateObject />
+      <p>Хук useState не объединяет объекты обновления автоматически.</p>
     </>
   );
 }
