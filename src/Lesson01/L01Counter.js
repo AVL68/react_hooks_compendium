@@ -3,9 +3,9 @@ import WatchVideoLessonFromSecond from "../common/WatchVideoLessonFromSecond";
 import GitHubFile from "../common/GitHubFile";
 import ReactjsOrg from "../common/ReactjsOrg";
 import СodeHowText from "../common/СodeHowText";
-import L01CounterBase from "./L01CounterBase";
+import L01_01_CounterBase from "./L01_01_CounterBase";
 import L01_02_CounterAsynchronousExample from "./L01_02_CounterAsynchronousExample";
-import L01CounterCompute from "./L01CounterCompute";
+import L01_03_CounterCompute from "./L01_03_CounterCompute";
 import L01_04_StateObject from "./L01_04_StateObject";
 
 function L01Сounter() {
@@ -24,7 +24,7 @@ function L01Сounter() {
         Кнопками меняем значение счетчика на 1.
         <СodeHowText codeText={[`function increment() { setCounter(counter + 1);`, `<button onClick={increment} className="btn btn-success"> Добавить </button>`]} />
       </p>
-      <L01CounterBase />
+      <L01_01_CounterBase />
       <h4>Дополнительно:</h4>
       <p>Для инициализаии состояния, useState используем в начале компоненты.</p>
       <p>
@@ -54,7 +54,7 @@ function L01Сounter() {
         <GitHubFile href="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson01/L01CounterCompute.js" />
       </h3>
       <p>Чтобы увидеть результаты начального рендеринга счетчиков откройте консоль браузера.</p>
-      <L01CounterCompute />
+      <L01_03_CounterCompute />
       <p>
         Обратите внимание, что рендеринг первого и второго счетчика отличаются.
         <br />
@@ -69,7 +69,7 @@ function L01Сounter() {
       <h3>
         Четвертый пример.
         <WatchVideoLessonFromSecond second={1083} />
-        <GitHubFile href="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson01/L01CounterCompute.js" />
+        <GitHubFile href="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson01/L01_04_StateObject.js" />
       </h3>
       <p>
         Стейт описан в формате объекта:
@@ -78,6 +78,14 @@ function L01Сounter() {
 
       <L01_04_StateObject />
       <p>Хук useState не объединяет объекты обновления автоматически.</p>
+      <p>
+        По красной кнопке объект полностью заменился на новый.
+        <СodeHowText codeText={[`setstate({ title: "Новый заголовок по красной кнопке" })`]} />
+      </p>
+      <p>
+        По синей кнопке изменился только title.
+        <СodeHowText codeText={[`setstate((prev) => { return { ...prev, title: "Новый заголовок по синей кнопке" } });`]} />
+      </p>
     </>
   );
 }
