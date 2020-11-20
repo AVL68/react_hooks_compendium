@@ -4,7 +4,7 @@ import WatchVideoLessonFromSecond from "../common/WatchVideoLessonFromSecond";
 function Intro() {
   return (
     <>
-      <h1>Конспект, шпаргалка по хукам в React.</h1>
+      <h1 style={{ textAlign: "center" }}>Конспект, шпаргалка по хукам в React.</h1>
 
       <p>
         Основан на курсе React Hooks -

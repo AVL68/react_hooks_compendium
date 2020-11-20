@@ -12,5 +12,6 @@ code {
 }
 .text_code {
   color: rgb(246, 174, 80);
-  /* background-color: rgb(250, 239, 225); */
+  display: block;
+  margin-left: 15px;
 }
