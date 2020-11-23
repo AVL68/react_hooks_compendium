@@ -21,12 +21,12 @@ function L01StateObject() {
 
   return (
     <>
-      <div className="card bg-light mb-3" style={{ width: "27rem" }}>
+      <div className="card bg-light mb-3 shadow " style={{ width: "27.4rem" }}>
         <div className="card-body">
-          <button onClick={() => setstate({ title: "Новый заголовок по красной кнопке" })} className="btn btn-danger">
+          <button onClick={() => setstate({ title: "Новый заголовок по красной кнопке" })} className="btn btn-danger mr-1">
             Изменить title
           </button>
-          <button onClick={updateTitle} className="btn btn-primary">
+          <button onClick={updateTitle} className="btn btn-primary mr-1">
             Изменить title
           </button>
           <button onClick={resetObject} className="btn btn-success">

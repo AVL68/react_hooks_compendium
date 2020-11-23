@@ -21,11 +21,11 @@ function L01CounterCompute() {
 
   return (
     <>
-      <div className="card bg-light mb-3" style={{ width: "15.1rem" }}>
+      <div className="card bg-light mb-3 shadow" style={{ width: "15.3rem" }}>
         <div className="card-body">
           <h4> Счетчик 1: {counter1}</h4>
           <h4> Счетчик 2: {counter2}</h4>
-          <button onClick={increment} className="btn btn-primary">
+          <button onClick={increment} className="btn btn-primary mr-1">
             Добавить 1
           </button>
           <button onClick={decrement} className="btn btn-success">

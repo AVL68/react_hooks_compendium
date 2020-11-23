@@ -19,13 +19,13 @@ function L01CounterAsynchronousExample() {
 
   return (
     <>
-      <div className="card bg-light mb-3" style={{ width: "22rem" }}>
+      <div className="card bg-light mb-3 shadow" style={{ width: "22.4rem" }}>
         <div className="card-body">
           <h4> Счетчик: {counter}</h4>
-          <button onClick={incrementAsynchonous} className="btn btn-danger">
+          <button onClick={incrementAsynchonous} className="btn btn-danger mr-1">
             Добавить 2
           </button>
-          <button onClick={increment} className="btn btn-primary">
+          <button onClick={increment} className="btn btn-primary mr-1">
             Добавить 2
           </button>
           <button onClick={decrement} className="btn btn-success">
