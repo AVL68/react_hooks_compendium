@@ -6,8 +6,8 @@ export const HeaderForExampl = ({ seeExampl = false, setSeeExampl = null, label 
   return (
     <h3>
       <span className="form-group form-check" data-toggle="tooltip" data-placement="bottom" title="Смотреть пример">
-        <input checked={seeExampl} onChange={() => setSeeExampl(!seeExampl)} type="checkbox" className="form-check-input" id="exampleCheck1" style={{ cursor: "pointer" }}></input>
-        <label className="form-check-label" htmlFor="exampleCheck1" style={{ cursor: "pointer" }}>
+        <input checked={seeExampl} onChange={() => setSeeExampl(!seeExampl)} type="checkbox" className="form-check-input" id={GHFile} style={{ cursor: "pointer" }}></input>
+        <label className="form-check-label" htmlFor={GHFile} style={{ cursor: "pointer" }}>
           {label}
         </label>
         <WatchVideoLessonFromSecond second={WVLFSecond} />
