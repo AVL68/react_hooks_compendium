@@ -1,6 +1,6 @@
 import React from "react";
 import WatchVideoLessonFromSecond from "../common/WatchVideoLessonFromSecond";
-import L01Counter from "./L01Counter";
+import { L01_listOfContent } from "./L01_listOfContent";
 
 function Lesson01() {
   return (
@@ -10,7 +10,7 @@ function Lesson01() {
         <WatchVideoLessonFromSecond second={278} />
       </h2>
       <p>Он наделяет наш функциональный компонент внутренним состоянием.</p>
-      <L01Counter />
+      <L01_listOfContent />
     </>
   );
 }

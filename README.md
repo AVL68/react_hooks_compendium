@@ -2,6 +2,8 @@
 
 ## Основан на курсе React Hooks - Полный Курс (Про Все Хуки!) от [Владилен Минин](https://youtu.be/9KJxaFHotqI?t=1)
 
+## Дополнительная информация с [https://ru.reactjs.org/](https://ru.reactjs.org/")
+
 При оформлении использовалась библиотека [Bootstrap](https://getbootstrap.com/).
 
 Ниже инструкции созданные при создании react проекта:

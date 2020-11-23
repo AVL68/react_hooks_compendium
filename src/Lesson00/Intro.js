@@ -1,4 +1,5 @@
 import React from "react";
+import ReactjsOrg from "../common/ReactjsOrg";
 import WatchVideoLessonFromSecond from "../common/WatchVideoLessonFromSecond";
 
 function Intro() {
@@ -9,6 +10,8 @@ function Intro() {
       <p>
         Основан на курсе React Hooks -
         <WatchVideoLessonFromSecond second={1} text=" Полный Курс (Про Все Хуки!) от Владилен Минин" />
+        Дополнительная информация с
+        <ReactjsOrg href="https://ru.reactjs.org/" text=" https://ru.reactjs.org/" />
       </p>
       <p> Основная идея react компонент: есть определенный стейт, объект описывающий состояние компонента. Если он меняется, react непосредственно перерисовывает ту область, где этот стейт выводится.</p>
       <p>
