@@ -6,16 +6,36 @@ import СodeHowText from "../common/СodeHowText";
 
 export const L02_listOfContent = () => {
   const [seeExampl01, setSeeExampl01] = useState(false);
+  const [seeExampl02, setSeeExampl02] = useState(false);
   return (
     <>
       <HeaderForExampl
         seeExampl={seeExampl01}
         setSeeExampl={setSeeExampl01}
-        label="Первый пример.Базовое использование useEffect."
+        label="Первый пример. Базовое использование useEffect."
         WVLFSecond={1416}
         GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson02/L02_01_baseUse.js"
       />
       {seeExampl01 ? (
+        <>
+          <p>Чтобы увидеть результаты рендеринга откройте консоль браузера.</p>
+          <L02_01_baseUse />
+          <p>
+            В функциональной компoненте использован хук useEffect:
+            <СodeHowText codeText={[`useEffect(() => {`, `  console.log("render from useEffect");`, `});`]} />
+            Обратите внимание, что рендер компоненты происходит только при смене названия ресурса.
+          </p>
+        </>
+      ) : null}
+
+      <HeaderForExampl
+        seeExampl={seeExampl02}
+        setSeeExampl={setSeeExampl02}
+        label="Второй пример. Второй параметр хука useEffect"
+        WVLFSecond={1661}
+        GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson02/L02_01_baseUse.js"
+      />
+      {seeExampl02 ? (
         <>
           <p>Чтобы увидеть результаты рендеринга откройте консоль браузера.</p>
           <L02_01_baseUse />
