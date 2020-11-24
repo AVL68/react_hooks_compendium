@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import { L02_01_baseUse } from "./L02_01_baseUse";
 import { HeaderForExampl } from "../common/HeaderForExampl";
+import ReactjsOrg from "../common/ReactjsOrg";
 import СodeHowText from "../common/СodeHowText";
-// import ReactjsOrg from "../common/ReactjsOrg";
+import { L02_01_baseUse } from "./L02_01_baseUse";
+import { L02_02_secondArgument } from "./L02_02_secondArgument";
 
 export const L02_listOfContent = () => {
   const [seeExampl01, setSeeExampl01] = useState(false);
@@ -38,11 +39,16 @@ export const L02_listOfContent = () => {
       {seeExampl02 ? (
         <>
           <p>Чтобы увидеть результаты рендеринга откройте консоль браузера.</p>
-          <L02_01_baseUse />
+          <L02_02_secondArgument />
           <p>
-            В функциональной компoненте использован хук useEffect:
-            <СodeHowText codeText={[`useEffect(() => {`, `  console.log("render from useEffect");`, `});`]} />
-            Обратите внимание, что рендер компоненты происходит только при смене названия ресурса.
+            По умолчанию эффекты запускаются после каждого завершённого рендера. :
+            <СodeHowText codeText={[`useEffect(() => {`, `  "render from useEffect", ", type: ", type, ", color: ", color`, `});`]} />
+            Обратите внимание, что рендер компоненты происходит только при смене названия ресурса или цвета.
+          </p>
+          <p>
+            В некоторых случаях это может быть излишним, чтобы реализовать это, передайте второй аргумент в useEffect, который является массивом значений, от которых зависит эффект.
+            <ReactjsOrg href="https://ru.reactjs.org/docs/hooks-reference.html#conditionally-firing-an-effect" />
+            <СodeHowText codeText={[`useEffect(() => {`, `  console.log("render from useEffect with type: ", type);`, ` }, [type]);`]} />
           </p>
         </>
       ) : null}
