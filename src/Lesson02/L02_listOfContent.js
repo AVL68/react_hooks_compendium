@@ -34,7 +34,7 @@ export const L02_listOfContent = () => {
         setSeeExampl={setSeeExampl02}
         label="Второй пример. Второй параметр хука useEffect"
         WVLFSecond={1661}
-        GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson02/L02_01_baseUse.js"
+        GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson02/L02_02_secondArgument.js"
       />
       {seeExampl02 ? (
         <>
