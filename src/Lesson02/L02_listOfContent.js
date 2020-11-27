@@ -5,11 +5,13 @@ import СodeHowText from "../common/СodeHowText";
 import { L02_01_baseUse } from "./L02_01_baseUse";
 import { L02_02_secondArgument } from "./L02_02_secondArgument";
 import { L02_03_FetchPlaceholder } from "./L02_03_FetchPlaceholder";
+import { L02_04_DidMount } from "./L02_04_DidMount";
 
 export const L02_listOfContent = () => {
   const [seeExampl01, setSeeExampl01] = useState(false);
   const [seeExampl02, setSeeExampl02] = useState(false);
   const [seeExampl03, setSeeExampl03] = useState(false);
+  const [seeExampl04, setSeeExampl04] = useState(false);
   return (
     <>
       <HeaderForExampl
@@ -70,6 +72,24 @@ export const L02_listOfContent = () => {
             Данные запрашиваются каждый раз, когда меняется ресурс.
           </p>
           <L02_03_FetchPlaceholder />
+        </>
+      ) : null}
+
+      <HeaderForExampl
+        seeExampl={seeExampl04}
+        setSeeExampl={setSeeExampl04}
+        label="Четвертый пример. componentDidMount?"
+        WVLFSecond={1949}
+        GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson02/L02_04_DidMount.js"
+      />
+      {seeExampl04 ? (
+        <>
+          <p>
+            Если необходимо запустить эффект один раз (при монтировании), вы можете передать пустой массив ([ ]) вторым аргументом.
+            <ReactjsOrg href="https://ru.reactjs.org/docs/hooks-reference.html#conditionally-firing-an-effect" />
+            <СodeHowText codeText={[`useEffect(() => {`, "  fetch(`https://jsonplaceholder.typicode.com/users`)", ` .then((response) => response.json())`, ` .then((json) => setUsers(json));`, ` }, [ ]);`]} />
+          </p>
+          <L02_04_DidMount />
         </>
       ) : null}
     </>
