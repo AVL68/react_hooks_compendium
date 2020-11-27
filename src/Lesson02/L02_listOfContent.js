@@ -64,7 +64,11 @@ export const L02_listOfContent = () => {
       />
       {seeExampl03 ? (
         <>
-          <p>Делаем запрос и получаем данные, в зависимости от выбранного ресурса.</p>
+          <p>
+            Делаем запрос и получаем данные, в зависимости от выбранного ресурса.
+            <СodeHowText codeText={[`useEffect(() => {`, "  fetch(`https://jsonplaceholder.typicode.com/${type}`)", ` .then((response) => response.json())`, ` .then((json) => setData(json));`, ` }, [type]);`]} />
+            Данные запрашиваются каждый раз, когда меняется ресурс.
+          </p>
           <L02_03_FetchPlaceholder />
         </>
       ) : null}
