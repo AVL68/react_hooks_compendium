@@ -4,10 +4,12 @@ import ReactjsOrg from "../common/ReactjsOrg";
 import СodeHowText from "../common/СodeHowText";
 import { L02_01_baseUse } from "./L02_01_baseUse";
 import { L02_02_secondArgument } from "./L02_02_secondArgument";
+import { L02_03_FetchPlaceholder } from "./L02_03_FetchPlaceholder";
 
 export const L02_listOfContent = () => {
   const [seeExampl01, setSeeExampl01] = useState(false);
   const [seeExampl02, setSeeExampl02] = useState(false);
+  const [seeExampl03, setSeeExampl03] = useState(false);
   return (
     <>
       <HeaderForExampl
@@ -50,6 +52,20 @@ export const L02_listOfContent = () => {
             <ReactjsOrg href="https://ru.reactjs.org/docs/hooks-reference.html#conditionally-firing-an-effect" />
             <СodeHowText codeText={[`useEffect(() => {`, `  console.log("render from useEffect with type: ", type);`, ` }, [type]);`]} />
           </p>
+        </>
+      ) : null}
+
+      <HeaderForExampl
+        seeExampl={seeExampl03}
+        setSeeExampl={setSeeExampl03}
+        label="Третий пример. Делаем запрос на {JSON} Placeholder."
+        WVLFSecond={1738}
+        GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson02/L02_01_baseUse.js"
+      />
+      {seeExampl03 ? (
+        <>
+          <p>Делаем запрос и получаем данные, в зависимости от выбранного ресурса.</p>
+          <L02_03_FetchPlaceholder />
         </>
       ) : null}
     </>
