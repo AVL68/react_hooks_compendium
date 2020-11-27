@@ -60,7 +60,7 @@ export const L02_listOfContent = () => {
         setSeeExampl={setSeeExampl03}
         label="Третий пример. Делаем запрос на {JSON} Placeholder."
         WVLFSecond={1738}
-        GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson02/L02_01_baseUse.js"
+        GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson02/L02_03_FetchPlaceholder.js"
       />
       {seeExampl03 ? (
         <>
