@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { L02_04_DidMountUsers } from "./L02_04_DidMountUsers";
 
 export const L02_04_DidMount = () => {
   const [type, setType] = useState("users");
@@ -29,9 +30,9 @@ export const L02_04_DidMount = () => {
 
   const curentStateResource = (type) => (type === "users" ? [users, setUsers] : type === "todos" ? [todos, setTodos] : type === "posts" ? [posts, setPosts] : [null, null]);
 
-  const deleteElement = (type) => {
-    let temporary = [...curentStateResource(type)[0]];
-    temporary.splice(0, 1);
+  const deleteElement = (state, key = 0) => {
+    let temporary = [...state];
+    temporary.splice(key, 1);
     curentStateResource(type)[1](temporary);
   };
 
@@ -49,10 +50,12 @@ export const L02_04_DidMount = () => {
           <button onClick={() => setType("posts")} className="btn btn-outline-info mr-5">
             Посты, всего {total.posts}
           </button>
-          <button onClick={() => deleteElement(type)} className="btn btn-outline-danger" disabled={total[type] == 0 ? "disabled" : ""}>
+          <button onClick={() => deleteElement(curentStateResource(type)[0], 0)} className="btn btn-outline-danger" disabled={total[type] == 0 ? "disabled" : ""}>
             Удалить первый элемент {type}, осталось {total[type]}.
           </button>
-          <pre>{JSON.stringify(curentStateResource(type)[0], null, 2)}</pre>
+          {type == "users" ? <L02_04_DidMountUsers state={curentStateResource(type)[0]} setState={curentStateResource(type)[1]} deleteElement={deleteElement} /> : null}
+          {type == "todos" ? <pre>{JSON.stringify(curentStateResource(type)[0], null, 2)}</pre> : null}
+          {type == "posts" ? <pre>{JSON.stringify(curentStateResource(type)[0], null, 2)}</pre> : null}
         </div>
       </div>
     </>

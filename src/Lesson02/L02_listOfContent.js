@@ -89,7 +89,7 @@ export const L02_listOfContent = () => {
       {seeExampl04 ? (
         <>
           <p>
-            Если необходимо запустить эффект один раз (при монтировании), вы можете передать пустой массив ([ ]) вторым аргументом.
+            Если необходимо запустить эффект один раз (при монтировании), надо передать пустой массив ([ ]) вторым аргументом.
             <ReactjsOrg href="https://ru.reactjs.org/docs/hooks-reference.html#conditionally-firing-an-effect" />
             <СodeHowText codeText={[`useEffect(() => {`, "  fetch(`https://jsonplaceholder.typicode.com/users`)", ` .then((response) => response.json())`, ` .then((json) => setUsers(json));`, ` }, [ ]);`]} />
           </p>
