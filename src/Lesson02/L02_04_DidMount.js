@@ -25,30 +25,14 @@ export const L02_04_DidMount = () => {
       .then((json) => setPosts(json));
   }, []);
 
-  useEffect(() => setTotal({ users: users.length, todos: todos.length, posts: posts.length }), [users, todos, posts]);
+  useEffect(() => setTotal({ users: users.length, todos: todos.length, posts: posts.length }), [todos, posts, users]);
+
+  const curentStateResource = (type) => (type === "users" ? [users, setUsers] : type === "todos" ? [todos, setTodos] : type === "posts" ? [posts, setPosts] : [null, null]);
 
   const deleteElement = (type) => {
-    let temporary = [];
-    switch (type) {
-      case "users":
-        temporary = [...users];
-        temporary.splice(0, 1);
-        setUsers(temporary);
-        break;
-      case "todos":
-        temporary = [...todos];
-        temporary.splice(0, 1);
-        setTodos(temporary);
-        break;
-      case "posts":
-        temporary = [...posts];
-        temporary.splice(0, 1);
-        setPosts(temporary);
-        break;
-
-      default:
-        break;
-    }
+    let temporary = [...curentStateResource(type)[0]];
+    temporary.splice(0, 1);
+    curentStateResource(type)[1](temporary);
   };
 
   return (
@@ -68,7 +52,7 @@ export const L02_04_DidMount = () => {
           <button onClick={() => deleteElement(type)} className="btn btn-outline-danger" disabled={total[type] == 0 ? "disabled" : ""}>
             Удалить первый элемент {type}, осталось {total[type]}.
           </button>
-          <pre>{JSON.stringify(type === "users" ? users : type === "todos" ? todos : type === "posts" ? posts : [], null, 2)}</pre>
+          <pre>{JSON.stringify(curentStateResource(type)[0], null, 2)}</pre>
         </div>
       </div>
     </>

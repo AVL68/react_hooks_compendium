@@ -17,7 +17,8 @@ export const L02_listOfContent = () => {
       <HeaderForExampl
         seeExampl={seeExampl01}
         setSeeExampl={setSeeExampl01}
-        label="Первый пример. Базовое использование useEffect."
+        label="Первый пример. "
+        labelAdd="Базовое использование useEffect."
         WVLFSecond={1416}
         GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson02/L02_01_baseUse.js"
       />
@@ -36,7 +37,8 @@ export const L02_listOfContent = () => {
       <HeaderForExampl
         seeExampl={seeExampl02}
         setSeeExampl={setSeeExampl02}
-        label="Второй пример. Второй параметр хука useEffect"
+        label="Второй пример. "
+        labelAdd="Второй параметр хука useEffect"
         WVLFSecond={1661}
         GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson02/L02_02_secondArgument.js"
       />
@@ -60,7 +62,8 @@ export const L02_listOfContent = () => {
       <HeaderForExampl
         seeExampl={seeExampl03}
         setSeeExampl={setSeeExampl03}
-        label="Третий пример. Делаем запрос на {JSON} Placeholder."
+        label="Третий пример. "
+        labelAdd="Делаем запрос на {JSON} Placeholder."
         WVLFSecond={1738}
         GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson02/L02_03_FetchPlaceholder.js"
       />
@@ -78,7 +81,8 @@ export const L02_listOfContent = () => {
       <HeaderForExampl
         seeExampl={seeExampl04}
         setSeeExampl={setSeeExampl04}
-        label="Четвертый пример. componentDidMount?"
+        label="Четвертый пример. "
+        labelAdd="componentDidMount?"
         WVLFSecond={1949}
         GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson02/L02_04_DidMount.js"
       />

@@ -47,11 +47,11 @@ export const L01_listOfContent = () => {
       <HeaderForExampl
         seeExampl={seeExampl02}
         setSeeExampl={setSeeExampl02}
-        label="Второй пример."
+        label="Второй пример. "
+        labelAdd="Хук useState работает асинхронно."
         WVLFSecond={741}
         GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson01/L01_02_CounterAsynchronousExample.js"
       />
-      <p>Хук useState работает асинхронно. </p>
 
       {seeExampl02 ? (
         <>
@@ -96,7 +96,8 @@ export const L01_listOfContent = () => {
       <HeaderForExampl
         seeExampl={seeExampl04}
         setSeeExampl={setSeeExampl04}
-        label="Четвертый пример."
+        label="Четвертый пример. "
+        labelAdd="Стейт описан в формате объекта."
         WVLFSecond={1083}
         GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson01/L01_04_StateObject.js"
       />
@@ -104,7 +105,6 @@ export const L01_listOfContent = () => {
       {seeExampl04 ? (
         <>
           <p>
-            Стейт описан в формате объекта:
             <СodeHowText codeText={[`const [state, Setstate] = useState({`, `title: "Счетчик",`, `date: Date.now(), });`]} />
           </p>
 
