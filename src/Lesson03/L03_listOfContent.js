@@ -23,7 +23,7 @@ export const L03_listOfContent = () => {
         label="Первый пример. "
         labelAdd="Используем useEffect."
         WVLFSecond={2280}
-        GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson02/L03_01_useEffect.js"
+        GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson03/L03_01_useEffect.js"
       />
       {seeExampl01 ? (
         <>
@@ -50,7 +50,7 @@ export const L03_listOfContent = () => {
         label="Второй пример. "
         labelAdd="Используем переменную вне компоненты."
         WVLFSecond={2408}
-        GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson02/L03_02_let.js"
+        GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson03/L03_02_let.js"
       />
       {seeExampl02 ? (
         <>
@@ -66,7 +66,7 @@ export const L03_listOfContent = () => {
         label="Третий пример. "
         labelAdd="Используем useRef."
         WVLFSecond={2518}
-        GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson02/L03_03_useRef.js"
+        GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson03/L03_03_useRef.js"
       />
       {seeExampl03 ? (
         <>
