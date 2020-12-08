@@ -7,7 +7,7 @@ import {L03_02_let} from "./L03_02_let";
 import {L03_03_useRef} from "./L03_03_useRef";
 import {L03_04_reference} from "./L03_04_reference";
 import {L03_05_focus} from "./L03_05_focus";
-import {L03_06_prevState} from "./L03_0_prevState";
+import {L03_06_prevState} from "./L03_06_prevState";
 
 export const L03_listOfContent = () => {
   const [seeExampl01, setSeeExampl01] = useState(false);

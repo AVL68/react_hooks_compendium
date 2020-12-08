@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d952f920-ed71-4923-8443-caedf125d469" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lesson03/L03_04_reference.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson03/L03_05_focus.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson03/L03_0_prevState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson04/L04_listOfContent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson04/Lesson04.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson03/L03_0_prevState.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson03/L03_06_prevState.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson03/L03_listOfContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson03/L03_listOfContent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Lesson03" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Lesson04" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -45,6 +46,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\WebDevelopment\WebProjects\VladilenMinin\react_hooks_сompendium\src\Lesson04" />
       <recent name="C:\WebDevelopment\WebProjects\VladilenMinin\react_hooks_сompendium\src\Lesson03" />
     </key>
   </component>
@@ -91,7 +93,7 @@
       <workItem from="1607156902143" duration="2966000" />
       <workItem from="1607226420748" duration="10239000" />
       <workItem from="1607314099751" duration="6624000" />
-      <workItem from="1607400124097" duration="5031000" />
+      <workItem from="1607400124097" duration="6825000" />
     </task>
     <task id="LOCAL-00001" summary="Добафил файл общих иконок SVG. Рефакторинг кода.">
       <created>1607231292828</created>
@@ -121,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607321407960</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lesson03. Закончил. Добавил еще три примера.">
+      <created>1607405453261</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607405453261</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,7 +154,8 @@
     <MESSAGE value="Lesson02. Добавил 5 пример. Начал Lesson03, хук useRef" />
     <MESSAGE value="Lesson03. Добавил первые три примера. Юазовое использование UseRef." />
     <MESSAGE value="Lesson03. Исправление ошибок." />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson03. Исправление ошибок." />
+    <MESSAGE value="Lesson03. Закончил. Добавил еще три примера." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson03. Закончил. Добавил еще три примера." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
