@@ -5,13 +5,17 @@ import СodeHowText from "../common/СodeHowText";
 import {L03_01_useEffect} from "./L03_01_useEffect";
 import {L03_02_let} from "./L03_02_let";
 import {L03_03_useRef} from "./L03_03_useRef";
+import {L03_04_reference} from "./L03_04_reference";
+import {L03_05_focus} from "./L03_05_focus";
+import {L03_06_prevState} from "./L03_0_prevState";
 
 export const L03_listOfContent = () => {
   const [seeExampl01, setSeeExampl01] = useState(false);
   const [seeExampl02, setSeeExampl02] = useState(false);
   const [seeExampl03, setSeeExampl03] = useState(false);
-  // const [seeExampl04, setSeeExampl04] = useState(false);
-  // const [seeExampl05, setSeeExampl05] = useState(false);
+  const [seeExampl04, setSeeExampl04] = useState(false);
+  const [seeExampl05, setSeeExampl05] = useState(false);
+  const [seeExampl06, setSeeExampl06] = useState(false);
 
   return (
     <>
@@ -81,6 +85,64 @@ export const L03_listOfContent = () => {
         </>
       ) : null}
 
+      <h3>Есть задача: Менять фокус на странице.</h3>
+      <p>Рефы дают возможность получить доступ к DOM-узлам или React-элементам, созданным в рендер-методе.
+        <ReactjsOrg href="https://ru.reactjs.org/docs/refs-and-the-dom.html"/>
+      </p>
+
+      <HeaderForExampl
+        seeExampl={seeExampl04}
+        setSeeExampl={setSeeExampl04}
+        label="Четвертый пример. "
+        labelAdd="Получаем ссылку на DOM элемент."
+        WVLFSecond={2628}
+        GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson03/L03_04_reference.js"
+      />
+      {seeExampl04 ? (
+        <>
+          <p>Рефы прикрепляются к React-элементам через ref атрибут.
+            <СodeHowText codeText={[`<input ref={inputRef} type="text" value={value} onChange={e => setValue(e.target.value)}/>`]}/>
+          </p>
+
+          <L03_04_reference/>
+          <p>Чтобы увидеть сообщение откройте консоль браузера.
+            <СodeHowText codeText={[`console.log(inputRef.current.value)`]}/>
+            Когда атрибут ref используется с HTML-элементом, свойство current созданного рефа в конструкторе с помощью React.createRef() получает соответствующий DOM-элемент.
+            <ReactjsOrg href="https://ru.reactjs.org/docs/refs-and-the-dom.html#accessing-refs"/>
+          </p>
+        </>
+      ) : null}
+
+      <HeaderForExampl
+        seeExampl={seeExampl05}
+        setSeeExampl={setSeeExampl05}
+        label="Пятый пример. "
+        labelAdd="Задаем фокус на элемент."
+        WVLFSecond={2708}
+        GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson03/L03_05_focus.js"
+      />
+      {seeExampl05 ? (
+        <>
+          <СodeHowText codeText={[`const focus = () => inputRef.current.focus()`]}/>
+          <L03_05_focus/>
+        </>
+      ) : null}
+
+      <h3>Есть задача: Получить предыдущее значение состояния.</h3>
+
+      <HeaderForExampl
+        seeExampl={seeExampl06}
+        setSeeExampl={setSeeExampl06}
+        label="Шестой пример. "
+        labelAdd="Отображение предыдущего состояния"
+        WVLFSecond={2773}
+        GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson03/L03_06_prevState.js"
+      />
+      {seeExampl06 ? (
+        <>
+          <L03_06_prevState/>
+        </>
+      ) : null}
 
     </>
   );
