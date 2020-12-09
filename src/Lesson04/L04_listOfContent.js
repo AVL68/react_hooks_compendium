@@ -24,7 +24,7 @@ export const L04_listOfContent = () => {
         label="Первый пример. "
         labelAdd="Не эффективный рендеринг."
         WVLFSecond={2887}
-        GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson03/L04_01_42.js"
+        GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson04/L04_01_42.js"
       />
       {seeExampl01 ? (
         <>
@@ -53,7 +53,7 @@ export const L04_listOfContent = () => {
         label="Второй пример. "
         labelAdd="Применяем useMemo."
         WVLFSecond={3237}
-        GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson03/L04_02_useMemo.js"
+        GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson04/L04_02_useMemo.js"
       />
       {seeExampl02 ? (
         <>

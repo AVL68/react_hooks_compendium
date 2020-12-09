@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d952f920-ed71-4923-8443-caedf125d469" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lesson04/L04_01_42.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson04/L04_02_useMemo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson04/L04_listOfContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson04/L04_listOfContent.js" afterDir="false" />
-    </list>
+    <list default="true" id="d952f920-ed71-4923-8443-caedf125d469" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,8 +69,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.start" />
         <item itemvalue="HTTP Request.rest-api#1" />
       </list>
     </recent_temporary>
@@ -92,7 +87,7 @@
       <workItem from="1607226420748" duration="10239000" />
       <workItem from="1607314099751" duration="6624000" />
       <workItem from="1607400124097" duration="7670000" />
-      <workItem from="1607495609546" duration="4842000" />
+      <workItem from="1607495609546" duration="5199000" />
     </task>
     <task id="LOCAL-00001" summary="Добафил файл общих иконок SVG. Рефакторинг кода.">
       <created>1607231292828</created>
@@ -136,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607407823123</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Lesson04. Добавил первый и второй примеры.">
+      <created>1607501199312</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607501199312</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +164,8 @@
     <MESSAGE value="Lesson03. Исправление ошибок." />
     <MESSAGE value="Lesson03. Закончил. Добавил еще три примера." />
     <MESSAGE value="Lesson04. Хук useMemo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson04. Хук useMemo" />
+    <MESSAGE value="Lesson04. Добавил первый и второй примеры." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson04. Добавил первый и второй примеры." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
