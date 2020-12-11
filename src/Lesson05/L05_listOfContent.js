@@ -19,7 +19,7 @@ export const L05_listOfContent = () => {
         label="Первый пример. "
         labelAdd="Вывод динамического списка."
         WVLFSecond={3590}
-        GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson04/L05_01_DynamicList.js"
+        GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson05/L05_01_DynamicList.js"
       />
       {seeExampl01 ? (
         <>
@@ -48,7 +48,7 @@ export const L05_listOfContent = () => {
         label="Второй пример. "
         labelAdd="Применяем useCallback."
         WVLFSecond={4045}
-        GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson04/L05_01_DynamicList_useCallback.js"
+        GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson05/L05_01_DynamicList_useCallback.js"
       />
       {seeExampl02 ? (
         <>

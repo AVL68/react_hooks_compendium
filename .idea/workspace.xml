@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d952f920-ed71-4923-8443-caedf125d469" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lesson05/L05_01_DynamicList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson05/L05_01_DynamicList_Items.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson05/L05_01_DynamicList_useCallback.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson05/L05_listOfContent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson05/Lesson05.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson04/L04_02_useMemoForObject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson04/L04_04_useMemoForObject.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson04/L04_listOfContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson04/L04_listOfContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson04/Lesson04.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson04/Lesson04.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson05/L05_listOfContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson05/L05_listOfContent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,8 +81,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.start" />
         <item itemvalue="HTTP Request.rest-api#1" />
       </list>
     </recent_temporary>
@@ -109,7 +101,7 @@
       <workItem from="1607400124097" duration="7670000" />
       <workItem from="1607495609546" duration="6269000" />
       <workItem from="1607572820076" duration="4324000" />
-      <workItem from="1607686017035" duration="7119000" />
+      <workItem from="1607686017035" duration="7552000" />
     </task>
     <task id="LOCAL-00001" summary="Добафил файл общих иконок SVG. Рефакторинг кода.">
       <created>1607231292828</created>
@@ -174,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607577982857</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Lesson05 Использование хука useCallback">
+      <created>1607693649222</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607693649222</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +202,8 @@
     <MESSAGE value="Lesson04. Добавил первый и второй примеры." />
     <MESSAGE value="Lesson04. Исправил пути до примеров." />
     <MESSAGE value="Lesson04. Добавил 3 и 4 примеры. Закончил с хуком useMemo." />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson04. Добавил 3 и 4 примеры. Закончил с хуком useMemo." />
+    <MESSAGE value="Lesson05 Использование хука useCallback" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson05 Использование хука useCallback" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
