@@ -5,17 +5,13 @@ import L04_01_42 from "./L04_01_42";
 import L04_02_useMemo from "./L04_02_useMemo";
 import L04_03_object from "./L04_03_object";
 import WatchVideoLessonFromSecond from "../common/WatchVideoLessonFromSecond";
-import L04_02_useMemoForObject from "./L04_02_useMemoForObject";
-// import ReactjsOrg from "../common/ReactjsOrg";
-// import СodeHowText from "../common/СodeHowText";
+import L04_04_useMemoForObject from "./L04_04_useMemoForObject";
 
 export const L04_listOfContent = () => {
   const [seeExampl01, setSeeExampl01] = useState(false);
   const [seeExampl02, setSeeExampl02] = useState(false);
   const [seeExampl03, setSeeExampl03] = useState(false);
   const [seeExampl04, setSeeExampl04] = useState(false);
-  // const [seeExampl05, setSeeExampl05] = useState(false);
-  // const [seeExampl06, setSeeExampl06] = useState(false);
 
   return (
     <>
@@ -116,7 +112,7 @@ export const L04_listOfContent = () => {
         label="Четвертый пример. "
         labelAdd="Применяем useMemo для объекта."
         WVLFSecond={3475}
-        GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson04/L04_02_useMemoForObject.js"
+        GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson04/L04_04_useMemoForObject.js"
       />
       {seeExampl04 ? (
         <>
@@ -125,7 +121,7 @@ export const L04_listOfContent = () => {
           </p>
           <p>Чтобы увидеть результаты рендеринга откройте консоль браузера.</p>
 
-          <L04_02_useMemoForObject/>
+          <L04_04_useMemoForObject/>
 
           <div className="alert alert-warning" role="alert">
             <p className="mb-0">

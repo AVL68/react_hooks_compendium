@@ -5,15 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d952f920-ed71-4923-8443-caedf125d469" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lesson04/L04_02_useMemoForObject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson04/L04_03_object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson05/L05_01_DynamicList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson05/L05_01_DynamicList_Items.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson05/L05_01_DynamicList_useCallback.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson05/L05_listOfContent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson05/Lesson05.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson04/L04_02_useMemoForObject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson04/L04_04_useMemoForObject.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson04/L04_listOfContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson04/L04_listOfContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson04/Lesson04.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson04/Lesson04.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Lesson04" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Lesson05" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -39,11 +52,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\WebDevelopment\WebProjects\VladilenMinin\react_hooks_сompendium\src\Lesson05" />
       <recent name="C:\WebDevelopment\WebProjects\VladilenMinin\react_hooks_сompendium\src\Lesson04" />
       <recent name="C:\WebDevelopment\WebProjects\VladilenMinin\react_hooks_сompendium\src\Lesson03" />
     </key>
@@ -93,7 +108,8 @@
       <workItem from="1607314099751" duration="6624000" />
       <workItem from="1607400124097" duration="7670000" />
       <workItem from="1607495609546" duration="6269000" />
-      <workItem from="1607572820076" duration="3603000" />
+      <workItem from="1607572820076" duration="4324000" />
+      <workItem from="1607686017035" duration="7119000" />
     </task>
     <task id="LOCAL-00001" summary="Добафил файл общих иконок SVG. Рефакторинг кода.">
       <created>1607231292828</created>
@@ -151,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607501393252</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Lesson04. Добавил 3 и 4 примеры. Закончил с хуком useMemo.">
+      <created>1607577982857</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607577982857</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +202,8 @@
     <MESSAGE value="Lesson04. Хук useMemo" />
     <MESSAGE value="Lesson04. Добавил первый и второй примеры." />
     <MESSAGE value="Lesson04. Исправил пути до примеров." />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson04. Исправил пути до примеров." />
+    <MESSAGE value="Lesson04. Добавил 3 и 4 примеры. Закончил с хуком useMemo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson04. Добавил 3 и 4 примеры. Закончил с хуком useMemo." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

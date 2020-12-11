@@ -8,7 +8,7 @@ function complexCompute(num) {
 }
 
 
-function L04_02_useMemoForObject() {
+function L04_04_useMemoForObject() {
   const [number, setNumber] = useState(42);
   const [colored, setColored] = useState(false)
 
@@ -41,4 +41,4 @@ function L04_02_useMemoForObject() {
   );
 }
 
-export default L04_02_useMemoForObject;
+export default L04_04_useMemoForObject;
