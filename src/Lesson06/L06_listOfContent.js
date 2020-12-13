@@ -17,7 +17,7 @@ export const L06_listOfContent = () => {
         label="Первый пример. "
         labelAdd="Базовое применение>."
         WVLFSecond={4209}
-        GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson05/L06_01_useContextBase.js"
+        GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson06/L06_01_useContextBase.js"
       />
       {seeExampl01 ? (
         <>

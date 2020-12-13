@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d952f920-ed71-4923-8443-caedf125d469" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lesson06/L06_01_useContextBase/Alert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson06/L06_01_useContextBase/L06_01_useContextBase.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson06/L06_01_useContextBase/Main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson06/L06_listOfContent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson06/Lesson06.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson00/Intro.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson00/Intro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson01/Lesson01.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson01/Lesson01.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson02/Lesson02.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson02/Lesson02.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson03/Lesson03.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson03/Lesson03.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson04/Lesson04.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson04/Lesson04.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson05/Lesson05.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson05/Lesson05.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson06/L06_listOfContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson06/L06_listOfContent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +106,7 @@
       <workItem from="1607572820076" duration="4324000" />
       <workItem from="1607686017035" duration="8328000" />
       <workItem from="1607754533788" duration="621000" />
-      <workItem from="1607847269013" duration="4531000" />
+      <workItem from="1607847269013" duration="4872000" />
     </task>
     <task id="LOCAL-00001" summary="Добафил файл общих иконок SVG. Рефакторинг кода.">
       <created>1607231292828</created>
@@ -197,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607694162505</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Lesson06. Добавил первый пример! Хук useContext">
+      <created>1607852595753</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607852595753</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +223,8 @@
     <MESSAGE value="Lesson04. Добавил 3 и 4 примеры. Закончил с хуком useMemo." />
     <MESSAGE value="Lesson05 Использование хука useCallback" />
     <MESSAGE value="Lesson05 указал корректные ссылки" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson05 указал корректные ссылки" />
+    <MESSAGE value="Lesson06. Добавил первый пример! Хук useContext" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson06. Добавил первый пример! Хук useContext" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
