@@ -2,7 +2,7 @@ import React from "react";
 import ReactjsOrg from "../common/ReactjsOrg";
 import WatchVideoLessonFromSecond from "../common/WatchVideoLessonFromSecond";
 
-function Intro() {
+export default function Intro() {
   return (
     <>
       <h1 style={{ textAlign: "center" }}>Конспект, шпаргалка по хукам в React.</h1>
@@ -21,5 +21,3 @@ function Intro() {
     </>
   );
 }
-
-export default Intro;

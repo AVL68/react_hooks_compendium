@@ -4,7 +4,7 @@ import СodeHowText from "../common/СodeHowText";
 import WatchVideoLessonFromSecond from "../common/WatchVideoLessonFromSecond";
 import {L03_listOfContent} from "./L03_listOfContent";
 
-function Lesson03() {
+export default function Lesson03() {
   return (
     <>
       <h2>
@@ -21,5 +21,3 @@ function Lesson03() {
     </>
   );
 }
-
-export default Lesson03;

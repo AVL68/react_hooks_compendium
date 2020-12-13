@@ -5,6 +5,7 @@ import Lesson02 from "./Lesson02/Lesson02";
 import Lesson03 from "./Lesson03/Lesson03";
 import Lesson04 from "./Lesson04/Lesson04";
 import Lesson05 from "./Lesson05/Lesson05";
+import Lesson06 from "./Lesson06/Lesson06";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Lesson03 />
       <Lesson04 />
       <Lesson05 />
+      <Lesson06 />
     </div>
   );
 }

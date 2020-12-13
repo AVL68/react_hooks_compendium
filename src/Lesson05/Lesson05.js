@@ -4,7 +4,7 @@ import ReactjsOrg from "../common/ReactjsOrg";
 import WatchVideoLessonFromSecond from "../common/WatchVideoLessonFromSecond";
 import {L05_listOfContent} from "./L05_listOfContent";
 
-function Lesson05() {
+export default function Lesson05() {
   return (
     <>
       <h2>
@@ -21,4 +21,3 @@ function Lesson05() {
   );
 }
 
-export default Lesson05;

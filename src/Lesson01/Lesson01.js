@@ -2,7 +2,7 @@ import React from "react";
 import WatchVideoLessonFromSecond from "../common/WatchVideoLessonFromSecond";
 import { L01_listOfContent } from "./L01_listOfContent";
 
-function Lesson01() {
+export default function Lesson01() {
   return (
     <>
       <h2>
@@ -14,5 +14,3 @@ function Lesson01() {
     </>
   );
 }
-
-export default Lesson01;
