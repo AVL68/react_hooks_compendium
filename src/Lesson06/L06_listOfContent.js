@@ -64,12 +64,12 @@ export const L06_listOfContent = () => {
         label="Третий пример. "
         labelAdd="Используем объект."
         WVLFSecond={5123}
-        GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson06/L06_03_useContextImproved/L06_03_useContextObject.js"
+        GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson06/L06_03_useContextObject/L06_03_useContextObject.js"
       />
       {seeExampl03 ? (
         <>
           <p>Экспортируем в провайдере объект
-            <GitHubFile href="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson06/L06_03_useContextImproved/alert/AlertContext.js"/>
+            <GitHubFile href="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson06/L06_03_useContextObject/alert/AlertContext.js"/>
             :
             <CodeHowText codeText={[`<AlertContext.Provider value={{`, `visible: alert,`, `toggle`, `}} >`]}/>
           </p>
