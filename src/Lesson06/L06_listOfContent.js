@@ -3,11 +3,12 @@ import {HeaderForExampl} from "../common/HeaderForExampl";
 import L06_01_useContextBase from "./L06_01_useContextBase/L06_01_useContextBase";
 import ReactjsOrg from "../common/ReactjsOrg";
 import СodeHowText from "../common/СodeHowText";
+import L06_02_useContextImproved from "./L06_02_useContextImproved/L06_02_useContextImproved";
 // import WatchVideoLessonFromSecond from "../common/WatchVideoLessonFromSecond";
 
 export const L06_listOfContent = () => {
   const [seeExampl01, setSeeExampl01] = useState(false);
-  // const [seeExampl02, setSeeExampl02] = useState(false);
+  const [seeExampl02, setSeeExampl02] = useState(false);
 
   return (
     <>
@@ -37,33 +38,22 @@ export const L06_listOfContent = () => {
       ) : null}
 
 
-      {/*<HeaderForExampl*/}
-      {/*  seeExampl={seeExampl02}*/}
-      {/*  setSeeExampl={setSeeExampl02}*/}
-      {/*  label="Второй пример. "*/}
-      {/*  labelAdd="Применяем useCallback."*/}
-      {/*  WVLFSecond={4045}*/}
-      {/*  GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson05/L05_01_DynamicList_useCallback.js"*/}
-      {/*/>*/}
-      {/*{seeExampl02 ? (*/}
-      {/*  <>*/}
-      {/*    <p>Callback функцию обернули хуком useCallback. Вторым параметром передали зависимость.*/}
-      {/*      <СodeHowText codeText={[`const generateItemsFromAPI = useCallback(() => {`, 'return new Array(count).fill("").map((_, key) => `Элемент ${key + 1}`)', `},[count])`]}/>*/}
-      {/*    </p>*/}
-      {/*    <p>Чтобы увидеть результаты рендеринга откройте консоль браузера.</p>*/}
+      <HeaderForExampl
+        seeExampl={seeExampl02}
+        setSeeExampl={setSeeExampl02}
+        label="Второй пример. "
+        labelAdd="Пример улучшенного применения>."
+        WVLFSecond={4687}
+        GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson06/L06_01_useContextImproved/L06_02_useContextImproved.js"
+      />
+      {seeExampl02 ? (
+        <>
+          <L06_02_useContextImproved/>
 
-      {/*    <L05_01_DynamicList_useCallback/>*/}
+        </>
+      ) : null}
 
-      {/*    <div className="alert alert-warning" role="alert">*/}
-      {/*      <p className="mb-0">*/}
-      {/*        Рендер элементов происходит при добавлении нового элемента, что правильно. Рендер*/}
-      {/*        элементов не происходит во время изменения цвета. Это улучшает общую эффективность рендеринга*/}
-      {/*        компоненты.*/}
-      {/*      </p>*/}
-      {/*    </div>*/}
 
-      {/*  </>*/}
-      {/*) : null}*/}
 
 
     </>

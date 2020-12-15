@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d952f920-ed71-4923-8443-caedf125d469" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Lesson06/L06_02_useContextImproved/L06_02_useContextImproved.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson06/L06_02_useContextImproved/Main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson06/L06_02_useContextImproved/alert/Alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson06/L06_02_useContextImproved/alert/AlertContext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson06/L06_listOfContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson06/L06_listOfContent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Lesson06" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Lesson06/L06_02_useContextImproved" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,10 +54,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\WebDevelopment\WebProjects\VladilenMinin\react_hooks_сompendium\src\Lesson06\L06_02_useContextImproved" />
+      <recent name="C:\WebDevelopment\WebProjects\VladilenMinin\react_hooks_сompendium\src\Lesson06\L06_02_useContextImproved\alert" />
       <recent name="C:\WebDevelopment\WebProjects\VladilenMinin\react_hooks_сompendium\src\Lesson06" />
       <recent name="C:\WebDevelopment\WebProjects\VladilenMinin\react_hooks_сompendium\src\Lesson05" />
       <recent name="C:\WebDevelopment\WebProjects\VladilenMinin\react_hooks_сompendium\src\Lesson04" />
-      <recent name="C:\WebDevelopment\WebProjects\VladilenMinin\react_hooks_сompendium\src\Lesson03" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\WebDevelopment\WebProjects\VladilenMinin\react_hooks_сompendium\src\Lesson06\L06_01_useContextBase" />
@@ -84,8 +90,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.deploy" />
         <item itemvalue="HTTP Request.rest-api#1" />
       </list>
     </recent_temporary>
@@ -106,7 +112,8 @@
       <workItem from="1607572820076" duration="4324000" />
       <workItem from="1607686017035" duration="8328000" />
       <workItem from="1607754533788" duration="621000" />
-      <workItem from="1607847269013" duration="4872000" />
+      <workItem from="1607847269013" duration="5209000" />
+      <workItem from="1608015244150" duration="3978000" />
     </task>
     <task id="LOCAL-00001" summary="Добафил файл общих иконок SVG. Рефакторинг кода.">
       <created>1607231292828</created>
@@ -192,7 +199,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607852595753</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Lesson06. Добавил первый пример! Хук useContext. Fix path.">
+      <created>1607852672698</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1607852672698</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Lesson06. Добавил первый пример! Хук useContext. Fix path var2.">
+      <created>1607852931004</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1607852931004</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +245,9 @@
     <MESSAGE value="Lesson05 Использование хука useCallback" />
     <MESSAGE value="Lesson05 указал корректные ссылки" />
     <MESSAGE value="Lesson06. Добавил первый пример! Хук useContext" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson06. Добавил первый пример! Хук useContext" />
+    <MESSAGE value="Lesson06. Добавил первый пример! Хук useContext. Fix path." />
+    <MESSAGE value="Lesson06. Добавил первый пример! Хук useContext. Fix path var2." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson06. Добавил первый пример! Хук useContext. Fix path var2." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
