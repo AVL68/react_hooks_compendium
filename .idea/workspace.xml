@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d952f920-ed71-4923-8443-caedf125d469" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lesson06/L06_02_useContextImproved/L06_02_useContextImproved.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson06/L06_02_useContextImproved/Main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson06/L06_02_useContextImproved/alert/Alert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson06/L06_02_useContextImproved/alert/AlertContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson06/L06_03_useContextObject/L06_03_useContextObject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson06/L06_03_useContextObject/Main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson06/L06_03_useContextObject/alert/Alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson06/L06_03_useContextObject/alert/AlertContext.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson06/L06_listOfContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson06/L06_listOfContent.js" afterDir="false" />
     </list>
@@ -40,7 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Lesson06/L06_02_useContextImproved" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Lesson06" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -54,9 +54,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\WebDevelopment\WebProjects\VladilenMinin\react_hooks_сompendium\src\Lesson06" />
       <recent name="C:\WebDevelopment\WebProjects\VladilenMinin\react_hooks_сompendium\src\Lesson06\L06_02_useContextImproved" />
       <recent name="C:\WebDevelopment\WebProjects\VladilenMinin\react_hooks_сompendium\src\Lesson06\L06_02_useContextImproved\alert" />
-      <recent name="C:\WebDevelopment\WebProjects\VladilenMinin\react_hooks_сompendium\src\Lesson06" />
       <recent name="C:\WebDevelopment\WebProjects\VladilenMinin\react_hooks_сompendium\src\Lesson05" />
       <recent name="C:\WebDevelopment\WebProjects\VladilenMinin\react_hooks_сompendium\src\Lesson04" />
     </key>
@@ -113,7 +113,7 @@
       <workItem from="1607686017035" duration="8328000" />
       <workItem from="1607754533788" duration="621000" />
       <workItem from="1607847269013" duration="5209000" />
-      <workItem from="1608015244150" duration="3978000" />
+      <workItem from="1608015244150" duration="6894000" />
     </task>
     <task id="LOCAL-00001" summary="Добафил файл общих иконок SVG. Рефакторинг кода.">
       <created>1607231292828</created>
@@ -213,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607852931004</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Lesson06. Добавил второй пример.">
+      <created>1608033028537</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1608033028537</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +254,8 @@
     <MESSAGE value="Lesson06. Добавил первый пример! Хук useContext" />
     <MESSAGE value="Lesson06. Добавил первый пример! Хук useContext. Fix path." />
     <MESSAGE value="Lesson06. Добавил первый пример! Хук useContext. Fix path var2." />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson06. Добавил первый пример! Хук useContext. Fix path var2." />
+    <MESSAGE value="Lesson06. Добавил второй пример." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson06. Добавил второй пример." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
