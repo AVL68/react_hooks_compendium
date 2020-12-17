@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d952f920-ed71-4923-8443-caedf125d469" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lesson07/L07_01_useReducer/L07_01_useReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson07/L07_01_useReducer/Main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson07/L07_01_useReducer/alert/Alert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson07/L07_01_useReducer/alert/AlertContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson07/L07_listOfContent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson07/Lesson07.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson07/L07_01_useReducer/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson07/L07_01_useReducer/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson07/L07_01_useReducer/alert/Alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson07/L07_01_useReducer/alert/Alert.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson07/L07_01_useReducer/alert/AlertContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson07/L07_01_useReducer/alert/AlertContext.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +112,7 @@
       <workItem from="1607754533788" duration="621000" />
       <workItem from="1607847269013" duration="5209000" />
       <workItem from="1608015244150" duration="7557000" />
-      <workItem from="1608196521191" duration="2797000" />
+      <workItem from="1608196521191" duration="6272000" />
     </task>
     <task id="LOCAL-00001" summary="Добафил файл общих иконок SVG. Рефакторинг кода.">
       <created>1607231292828</created>
@@ -244,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608197905918</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Lesson07 Добавил первый пример! хук useReducer">
+      <created>1608207970522</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1608207970522</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +285,8 @@
     <MESSAGE value="Lesson06. Добавил третий пример." />
     <MESSAGE value="Lesson06. Проверил ссылки." />
     <MESSAGE value="Рефакторинг нескольких уроков." />
-    <option name="LAST_COMMIT_MESSAGE" value="Рефакторинг нескольких уроков." />
+    <MESSAGE value="Lesson07 Добавил первый пример! хук useReducer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson07 Добавил первый пример! хук useReducer" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

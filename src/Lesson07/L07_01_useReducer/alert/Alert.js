@@ -6,9 +6,9 @@ export default function Alert() {
   if (!alert.visible) return null
 
   return (
-      <div className="alert alert-danger" role="alert" onClick={alert.toggle} style={{ cursor: "pointer"}}>
+      <div className="alert alert-danger" role="alert" onClick={alert.hide} style={{ cursor: "pointer"}}>
         <p className="mb-0">
-          Это очень и очень важное сообщение!!!
+          {alert.text}
         </p>
       </div>
   )
