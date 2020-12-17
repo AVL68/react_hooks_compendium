@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ReactjsOrg from "../common/ReactjsOrg";
-import СodeHowText from "../common/СodeHowText";
+import CodeHowText from "../common/СodeHowText";
 import { HeaderForExampl } from "../common/HeaderForExampl";
 import L01_01_CounterBase from "./L01_01_CounterBase";
 import L01_02_CounterAsynchronousExample from "./L01_02_CounterAsynchronousExample";
@@ -18,7 +18,8 @@ export const L01_listOfContent = () => {
       <HeaderForExampl
         seeExampl={seeExampl01}
         setSeeExampl={setSeeExampl01}
-        label="Первый пример."
+        label="Первый пример. "
+        labelAdd="Базовое применение."
         WVLFSecond={294}
         GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson01/L01_01_CounterBase.js"
       />
@@ -26,11 +27,11 @@ export const L01_listOfContent = () => {
         <>
           <p>
             Значение счетчика добавляем в состояние компоненты.
-            <СodeHowText codeText={[`const [counter, setCounter] = useState(0);`]} />
+            <CodeHowText codeText={[`const [counter, setCounter] = useState(0);`]} />
           </p>
           <p>
             Кнопками меняем значение счетчика на 1.
-            <СodeHowText codeText={[`function increment() { setCounter(counter + 1);`, `<button onClick={increment} className="btn btn-success"> Добавить </button>`]} />
+            <CodeHowText codeText={[`function increment() { setCounter(counter + 1);`, `<button onClick={increment} className="btn btn-success"> Добавить </button>`]} />
           </p>
           <L01_01_CounterBase />
         </>
@@ -42,7 +43,7 @@ export const L01_listOfContent = () => {
         Не используйте хуки внутри циклов, условных операторов или вложенных функций.
         <ReactjsOrg href="https://ru.reactjs.org/docs/hooks-rules.html#only-call-hooks-at-the-top-level" />
       </p>
-      <p>Использовать useState для инициализации нового состояния в компаненте можно сколько сколько угодно раз.</p>
+      <p>Использовать useState для инициализации нового состояния в компоненте можно сколько сколько угодно раз.</p>
 
       <HeaderForExampl
         seeExampl={seeExampl02}
@@ -58,12 +59,12 @@ export const L01_listOfContent = () => {
           <L01_02_CounterAsynchronousExample />
           <p>
             По красной кнопке счетчик не увеличивается на 2, так как используется текущее состояние.
-            <СodeHowText codeText={[`function incrementAsynchonous() {`, `setCounter(counter + 1);`, `setCounter(counter + 1);`]} />
+            <CodeHowText codeText={[`function incrementAsynchonous() {`, `setCounter(counter + 1);`, `setCounter(counter + 1);`]} />
           </p>
           <p>
             По синей кнопке счетчик увеличивается на 2, так как используется предыдущее состояние.
             <ReactjsOrg href="https://ru.reactjs.org/docs/hooks-reference.html#functional-updates" />
-            <СodeHowText codeText={[`function increment() {`, `setCounter((previous) => previous + 1);`, `setCounter((previous) => previous + 1);`]} />
+            <CodeHowText codeText={[`function increment() {`, `setCounter((previous) => previous + 1);`, `setCounter((previous) => previous + 1);`]} />
           </p>
         </>
       ) : null}
@@ -84,9 +85,9 @@ export const L01_listOfContent = () => {
             Обратите внимание, что рендеринг первого и второго счетчика отличаются.
             <br />
             Функция расчета первоначального состояния первого счетчика выполняется при каждом изменении состояния.
-            <СodeHowText codeText={['const [counter1, setCounter1] = useState(computeInitialCounter("1"));']} />
+            <CodeHowText codeText={['const [counter1, setCounter1] = useState(computeInitialCounter("1"));']} />
             Функция расчета первоначального состояния второго счетчика выполняется один раз.
-            <СodeHowText codeText={['const [counter2, setCounter2] = useState(() => computeInitialCounter("2"));']} />
+            <CodeHowText codeText={['const [counter2, setCounter2] = useState(() => computeInitialCounter("2"));']} />
             Начальное состояние можно вычислять посредством функции, которая будет выполняться только при начальном рендеринге.
             <ReactjsOrg href="https://ru.reactjs.org/docs/hooks-reference.html#lazy-initial-state" />
           </p>
@@ -105,18 +106,18 @@ export const L01_listOfContent = () => {
       {seeExampl04 ? (
         <>
           <p>
-            <СodeHowText codeText={[`const [state, Setstate] = useState({`, `title: "Счетчик",`, `date: Date.now(), });`]} />
+            <CodeHowText codeText={[`const [state, Setstate] = useState({`, `title: "Счетчик",`, `date: Date.now(), });`]} />
           </p>
 
           <L01_04_StateObject />
           <p>Хук useState не объединяет объекты обновления автоматически.</p>
           <p>
             По красной кнопке объект полностью заменился на новый.
-            <СodeHowText codeText={[`setstate({ title: "Новый заголовок по красной кнопке" })`]} />
+            <CodeHowText codeText={[`setstate({ title: "Новый заголовок по красной кнопке" })`]} />
           </p>
           <p>
             По синей кнопке изменился только title.
-            <СodeHowText codeText={[`setstate((prev) => { return { ...prev, title: "Новый заголовок по синей кнопке" } });`]} />
+            <CodeHowText codeText={[`setstate((prev) => { return { ...prev, title: "Новый заголовок по синей кнопке" } });`]} />
           </p>
         </>
       ) : null}

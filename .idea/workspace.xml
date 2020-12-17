@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d952f920-ed71-4923-8443-caedf125d469" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lesson06/L06_03_useContextObject/L06_03_useContextObject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson06/L06_03_useContextObject/Main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson06/L06_03_useContextObject/alert/Alert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson06/L06_03_useContextObject/alert/AlertContext.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson06/L06_listOfContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson06/L06_listOfContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson01/L01_listOfContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson01/L01_listOfContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson01/Lesson01.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson01/Lesson01.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +110,8 @@
       <workItem from="1607686017035" duration="8328000" />
       <workItem from="1607754533788" duration="621000" />
       <workItem from="1607847269013" duration="5209000" />
-      <workItem from="1608015244150" duration="6894000" />
+      <workItem from="1608015244150" duration="7557000" />
+      <workItem from="1608196521191" duration="1007000" />
     </task>
     <task id="LOCAL-00001" summary="Добафил файл общих иконок SVG. Рефакторинг кода.">
       <created>1607231292828</created>
@@ -220,7 +218,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608033028537</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Lesson06. Добавил третий пример.">
+      <created>1608036560051</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1608036560051</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Lesson06. Проверил ссылки.">
+      <created>1608036724100</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1608036724100</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +267,9 @@
     <MESSAGE value="Lesson06. Добавил первый пример! Хук useContext. Fix path." />
     <MESSAGE value="Lesson06. Добавил первый пример! Хук useContext. Fix path var2." />
     <MESSAGE value="Lesson06. Добавил второй пример." />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson06. Добавил второй пример." />
+    <MESSAGE value="Lesson06. Добавил третий пример." />
+    <MESSAGE value="Lesson06. Проверил ссылки." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson06. Проверил ссылки." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
