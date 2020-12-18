@@ -9,7 +9,7 @@ export default function Lesson07() {
   return (
     <>
       <h2>
-        7. Хук useContext.
+        7. Хук useReducer.
         <WatchVideoLessonFromSecond second={5216} />
       </h2>
       <p>
