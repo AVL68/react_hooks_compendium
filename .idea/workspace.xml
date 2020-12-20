@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d952f920-ed71-4923-8443-caedf125d469" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Lesson08/L08_01_Direction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson08/L08_02_MyHookLogger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson08/L08_03_MyHookInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson08/L08_listOfContent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson08/Lesson08.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson07/L07_listOfContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson07/L07_listOfContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson07/Lesson07.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson07/Lesson07.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/СodeHowText.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/СodeHowText.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +42,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Lesson08" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,11 +56,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\WebDevelopment\WebProjects\VladilenMinin\react_hooks_сompendium\src\Lesson08" />
       <recent name="C:\WebDevelopment\WebProjects\VladilenMinin\react_hooks_сompendium\src" />
       <recent name="C:\WebDevelopment\WebProjects\VladilenMinin\react_hooks_сompendium\src\Lesson06" />
       <recent name="C:\WebDevelopment\WebProjects\VladilenMinin\react_hooks_сompendium\src\Lesson06\L06_02_useContextImproved" />
       <recent name="C:\WebDevelopment\WebProjects\VladilenMinin\react_hooks_сompendium\src\Lesson06\L06_02_useContextImproved\alert" />
-      <recent name="C:\WebDevelopment\WebProjects\VladilenMinin\react_hooks_сompendium\src\Lesson05" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\WebDevelopment\WebProjects\VladilenMinin\react_hooks_сompendium\src\Lesson06\L06_01_useContextBase" />
@@ -112,7 +117,8 @@
       <workItem from="1607847269013" duration="5209000" />
       <workItem from="1608015244150" duration="7557000" />
       <workItem from="1608196521191" duration="8520000" />
-      <workItem from="1608281357065" duration="1527000" />
+      <workItem from="1608281357065" duration="1636000" />
+      <workItem from="1608447955692" duration="11306000" />
     </task>
     <task id="LOCAL-00001" summary="Добафил файл общих иконок SVG. Рефакторинг кода.">
       <created>1607231292828</created>
@@ -254,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608216932435</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Lesson07 Корректировка путей.">
+      <created>1608295261546</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1608295261546</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,7 +307,8 @@
     <MESSAGE value="Рефакторинг нескольких уроков." />
     <MESSAGE value="Lesson07 Добавил первый пример! хук useReducer" />
     <MESSAGE value="Lesson07 Закончил первый пример." />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson07 Закончил первый пример." />
+    <MESSAGE value="Lesson07 Корректировка путей." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson07 Корректировка путей." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

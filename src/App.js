@@ -7,6 +7,7 @@ import Lesson04 from "./Lesson04/Lesson04";
 import Lesson05 from "./Lesson05/Lesson05";
 import Lesson06 from "./Lesson06/Lesson06";
 import Lesson07 from "./Lesson07/Lesson07";
+import Lesson08 from "./Lesson08/Lesson08";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Lesson05 />
       <Lesson06 />
       <Lesson07 />
+      <Lesson08 />
     </div>
   );
 }
