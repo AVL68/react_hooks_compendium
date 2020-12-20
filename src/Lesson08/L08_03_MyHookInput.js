@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import {AlertProvider} from "../Lesson07/L07_01_useReducer/alert/AlertContext";
 
 
 function useInput(initialValue) {
@@ -17,7 +16,6 @@ export default function L08_03_MyHookInput() {
   const lastName = useInput("")
 
   return (
-    <AlertProvider>
       <div className="card bg-light mb-3 shadow" style={{width: "45rem"}}>
         <div className="card-body">
           <input type="text" value={name.value} placeholder="Name" onChange={name.onChange} className="mr-1"/>
@@ -27,7 +25,6 @@ export default function L08_03_MyHookInput() {
 
         </div>
       </div>
-    </AlertProvider>
   )
 
 }

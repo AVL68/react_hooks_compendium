@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d952f920-ed71-4923-8443-caedf125d469" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lesson08/L08_01_Direction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson08/L08_02_MyHookLogger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson08/L08_03_MyHookInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson08/L08_listOfContent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson08/Lesson08.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/СodeHowText.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/СodeHowText.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson08/L08_01_Direction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson08/L08_01_Direction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson08/L08_02_MyHookLogger.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson08/L08_02_MyHookLogger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson08/L08_03_MyHookInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson08/L08_03_MyHookInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson08/L08_listOfContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson08/L08_listOfContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +116,7 @@
       <workItem from="1608015244150" duration="7557000" />
       <workItem from="1608196521191" duration="8520000" />
       <workItem from="1608281357065" duration="1636000" />
-      <workItem from="1608447955692" duration="11306000" />
+      <workItem from="1608447955692" duration="12282000" />
     </task>
     <task id="LOCAL-00001" summary="Добафил файл общих иконок SVG. Рефакторинг кода.">
       <created>1607231292828</created>
@@ -267,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608295261546</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Lesson08 Добавил третий пример!">
+      <created>1608466303317</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1608466303317</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +313,8 @@
     <MESSAGE value="Lesson07 Добавил первый пример! хук useReducer" />
     <MESSAGE value="Lesson07 Закончил первый пример." />
     <MESSAGE value="Lesson07 Корректировка путей." />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson07 Корректировка путей." />
+    <MESSAGE value="Lesson08 Добавил третий пример!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson08 Добавил третий пример!" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

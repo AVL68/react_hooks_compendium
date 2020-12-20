@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import {AlertProvider} from "../Lesson07/L07_01_useReducer/alert/AlertContext";
 
 
 export default function L08_01_Direction() {
@@ -16,7 +15,6 @@ export default function L08_01_Direction() {
   }
 
   return (
-    <AlertProvider>
       <div className="card bg-light mb-3 shadow" style={{width: "45rem"}}>
         <div className="card-body">
           <input type="text" value={name} placeholder="Name" onChange={handlerName} className="mr-1"/>
@@ -26,7 +24,6 @@ export default function L08_01_Direction() {
 
         </div>
       </div>
-    </AlertProvider>
   )
 
 }

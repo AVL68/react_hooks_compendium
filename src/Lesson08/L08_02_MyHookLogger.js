@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-import {AlertProvider} from "../Lesson07/L07_01_useReducer/alert/AlertContext";
-
 
 function useLogger(value , title) {
   useEffect(() => {
@@ -25,7 +23,6 @@ export default function L08_02_MyHookLogger() {
   }
 
   return (
-    <AlertProvider>
       <div className="card bg-light mb-3 shadow" style={{width: "45rem"}}>
         <div className="card-body">
           <input type="text" value={name} placeholder="Name" onChange={handlerName} className="mr-1"/>
@@ -35,7 +32,6 @@ export default function L08_02_MyHookLogger() {
 
         </div>
       </div>
-    </AlertProvider>
   )
 
 }

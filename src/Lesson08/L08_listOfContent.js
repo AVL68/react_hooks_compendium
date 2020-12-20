@@ -4,6 +4,7 @@ import CodeHowText from "../common/СodeHowText";
 import L08_01_Direction from "./L08_01_Direction";
 import L08_02_MyHookLogger from "./L08_02_MyHookLogger";
 import L08_03_MyHookInput from "./L08_03_MyHookInput";
+import ReactjsOrg from "../common/ReactjsOrg";
 // import ReactjsOrg from "../common/ReactjsOrg";
 // import GitHubFile from "../common/GitHubFile";
 // import WatchVideoLessonFromSecond from "../common/WatchVideoLessonFromSecond";
@@ -29,7 +30,7 @@ export const L08_listOfContent = () => {
           <p>При использовании нескольких полей ввода данных:
             <CodeHowText codeText={[`<input type="text" value={name} placeholder="Name" onChange={handlerName} className="mr-1"/>`, `<input type="text" value={lastName} placeholder="LastName" onChange={handlerlastName}/>`]}/>
             Часто используется дублирование кода:
-            <CodeHowText codeText={[`const handlerName = event => {`, `setName(event.target.value)}`,`const handlerlastName = event => {`, `setlastName(event.target.value)}`]}/>
+            <CodeHowText codeText={[`const handlerName = event => {`, `  setName(event.target.value)}`,`const handlerlastName = event => {`, `  setlastName(event.target.value)}`]}/>
           </p>
 
           <L08_01_Direction/>
@@ -50,7 +51,7 @@ export const L08_listOfContent = () => {
           <p>Создаим свой хук для слежения изменнеия состояния. Для этого внутри своего хука будем использовать
             useEffect:
             <CodeHowText
-              codeText={[`function useLogger(value , title) {`, `useEffect(() => {`, "console.log(`Значение ${title} изменилось на: ${value}`)", `},[value])}`]}/>
+              codeText={[`function useLogger(value , title) {`, `  useEffect(() => {`, "  console.log(`Значение ${title} изменилось на: ${value}`)", `},[value])}`]}/>
           </p>
           <p>Чтобы увидеть результаты изменнеия состояния откройте консоль браузера.</p>
           <L08_02_MyHookLogger/>
@@ -88,6 +89,9 @@ export const L08_listOfContent = () => {
           </p>
           <p>Обратите внимание, что во втором input используется {'{...lastName}'} вместо {'value={lastName.value} onChange={lastName.onChange}'}.</p>
           <L08_03_MyHookInput/>
+          <p>Пользовательские хуки — это механизм повторного использования логики с состоянием (например, установка подписки и сохранение текущего значения), но каждый раз, когда вы используете пользовательский хук, всё состояние и эффекты внутри него полностью изолированы.
+            <ReactjsOrg href="https://ru.reactjs.org/docs/hooks-custom.html#using-a-custom-hook"/>
+          </p>
 
         </>
       ) : null}
