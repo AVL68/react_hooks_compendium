@@ -71,7 +71,7 @@ export const L06_listOfContent = () => {
           <p>Экспортируем в провайдере объект
             <GitHubFile href="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson06/L06_03_useContextObject/alert/AlertContext.js"/>
             :
-            <CodeHowText codeText={[`<AlertContext.Provider value={{`, `visible: alert,`, `toggle`, `}} >`]}/>
+            <CodeHowText codeText={[`<AlertContext.Provider value={{`, `  visible: alert,`, `  toggle`, `}} >`]}/>
           </p>
           <L06_03_useContextObject/>
 

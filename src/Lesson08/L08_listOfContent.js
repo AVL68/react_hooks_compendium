@@ -1,18 +1,17 @@
 import React, { useState } from "react";
 import {HeaderForExampl} from "../common/HeaderForExampl";
 import CodeHowText from "../common/СodeHowText";
+import ReactjsOrg from "../common/ReactjsOrg";
 import L08_01_Direction from "./L08_01_Direction";
 import L08_02_MyHookLogger from "./L08_02_MyHookLogger";
 import L08_03_MyHookInput from "./L08_03_MyHookInput";
-import ReactjsOrg from "../common/ReactjsOrg";
-// import ReactjsOrg from "../common/ReactjsOrg";
-// import GitHubFile from "../common/GitHubFile";
-// import WatchVideoLessonFromSecond from "../common/WatchVideoLessonFromSecond";
+import L08_04_MyHookClear from "./L08_04_MyHookClear";
 
 export const L08_listOfContent = () => {
   const [seeExampl01, setSeeExampl01] = useState(false);
   const [seeExampl02, setSeeExampl02] = useState(false);
   const [seeExampl03, setSeeExampl03] = useState(false);
+  const [seeExampl04, setSeeExampl04] = useState(false);
 
   return (
     <>
@@ -96,6 +95,30 @@ export const L08_listOfContent = () => {
         </>
       ) : null}
 
+
+      <HeaderForExampl
+        seeExampl={seeExampl04}
+        setSeeExampl={setSeeExampl04}
+        label="Четвертый пример. "
+        labelAdd="Применение."
+        WVLFSecond={6160}
+        GHFile="https://github.com/AVL68/react_hooks_compendium/blob/master/src/Lesson08/L08_04_MyHookClear.js"
+      />
+      {seeExampl04 ? (
+        <>
+          <p>Нам нужно иметь возможность очищать поля input. Просто добавляем дополнительный функционал:
+            <CodeHowText codeText={[`const clear = () => setValue("")`]}/>
+
+            Применяем в компоненте:
+            <CodeHowText
+              codeText={[`<button className="btn btn-success mr-1" onClick={name.clear}>Очистить name</button>`, "..."]}/>
+
+          </p>
+          <p>Обратите внимание, что во втором input используется {'{...lastName}'} вместо {'value={lastName.value} onChange={lastName.onChange}'}.</p>
+          <L08_04_MyHookClear/>
+
+        </>
+      ) : null}
 
 
     </>
