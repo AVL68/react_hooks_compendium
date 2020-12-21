@@ -19,7 +19,7 @@ export const L03_listOfContent = () => {
 
   return (
     <>
-      <h3>Есть задача: Посчитать, сколько раз рендерится компонента.</h3>
+      <h3>Есть задача: Посчитать, сколько раз рендерится компонент.</h3>
 
       <HeaderForExampl
         seeExampl={seeExampl01}
