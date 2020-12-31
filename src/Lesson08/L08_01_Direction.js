@@ -17,7 +17,7 @@ export default function L08_01_Direction() {
   return (
       <div className="card bg-light mb-3 shadow" style={{width: "45rem"}}>
         <div className="card-body">
-          <input type="text" value={name} placeholder="Name" onChange={handlerName} className="mr-1"/>
+          <input type="text" value={name} placeholder="Name" onChange={handlerName} className="me-1"/>
           <input type="text" value={lastName} placeholder="LastName" onChange={handlerlastName}/>
           <hr/>
           <h1>Имя: <em>{name} {lastName}</em></h1>

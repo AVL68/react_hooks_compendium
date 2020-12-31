@@ -20,9 +20,11 @@ export const L02_04_DidMountUsers = ({ state = [], deleteElement = null }) => {
           return (
             <tr key={row.id}>
               <th scope="row" style={{ textAlign: "center" }}>
+                <div>
                 {row.id}
+                </div>
                 <a
-                  className="badge badge-outline-primary"
+                  className="bg bg-outline-primary"
                   onClick={() => {
                     deleteElement(state, key);
                   }}
@@ -31,7 +33,7 @@ export const L02_04_DidMountUsers = ({ state = [], deleteElement = null }) => {
                   title={`Удалить: id ${row.id}`}
                   style={{ cursor: "pointer" }}
                 >
-                  <IconsSVG iconsID="bi-trash" width="1em" height="1em" className={"bi bi-trashi"}/>
+                  <IconsSVG iconsID="bi-trash" width="0.8em" height="0.8em" className={"bi bi-trashi"}/>
                 </a>
               </th>
               <td>{row.name}</td>

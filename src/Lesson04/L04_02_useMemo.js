@@ -23,10 +23,10 @@ function L04_02_useMemo() {
       <div className="card bg-light mb-3 shadow" style={{ width: "25.5rem" }}>
         <div className="card-body">
           <h4 style = {style}> Вычисляемое свойство: {computed}</h4>
-          <button onClick={() => setNumber(prev => prev + 1)} className="btn btn-primary mr-1">
+          <button onClick={() => setNumber(prev => prev + 1)} className="btn btn-primary me-1">
             Добавить 2
           </button>
-          <button onClick={() => setNumber(prev => prev - 1)} className="btn btn-success mr-3">
+          <button onClick={() => setNumber(prev => prev - 1)} className="btn btn-success me-3">
             Вычесть 2
           </button>
           <button onClick={() => setColored(prev => !prev)} className="btn btn-warning">

@@ -8,7 +8,7 @@ export default function Main() {
   return (
     <>
       <h1>Привет в примере с Context</h1>
-      <button className="btn btn-success  mr-1" onClick={()=> show("Это текст из main.js")} disabled={visible? "disabled" : ""}>Показать alert</button>
+      <button className="btn btn-success  me-1" onClick={()=> show("Это текст из main.js")} disabled={visible? "disabled" : ""}>Показать alert</button>
       <button className="btn btn-warning" onClick={()=> hide()} disabled={!visible? "disabled" : ""}>Убрать alert</button>
     </>
   )

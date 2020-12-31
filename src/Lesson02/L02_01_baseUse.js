@@ -12,10 +12,10 @@ export const L02_01_baseUse = () => {
       <div className="card bg-light mb-3 shadow " style={{ width: "20rem" }}>
         <div className="card-body">
           <h4> Ресурс: {type}</h4>
-          <button onClick={() => setType("users")} className="btn btn-outline-info mr-1">
+          <button onClick={() => setType("users")} className="btn btn-outline-info me-1">
             Пользователи
           </button>
-          <button onClick={() => setType("todo")} className="btn btn-outline-info mr-1">
+          <button onClick={() => setType("todo")} className="btn btn-outline-info me-1">
             Todo
           </button>
           <button onClick={() => setType("posts")} className="btn btn-outline-info">

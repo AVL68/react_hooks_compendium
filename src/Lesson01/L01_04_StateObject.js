@@ -23,10 +23,10 @@ function L01StateObject() {
     <>
       <div className="card bg-light mb-3 shadow " style={{ width: "27.4rem" }}>
         <div className="card-body">
-          <button onClick={() => setstate({ title: "Новый заголовок по красной кнопке" })} className="btn btn-danger mr-1">
+          <button onClick={() => setstate({ title: "Новый заголовок по красной кнопке" })} className="btn btn-danger me-1">
             Изменить title
           </button>
-          <button onClick={updateTitle} className="btn btn-primary mr-1">
+          <button onClick={updateTitle} className="btn btn-primary me-1">
             Изменить title
           </button>
           <button onClick={resetObject} className="btn btn-success">

@@ -27,7 +27,7 @@ export const L08_listOfContent = () => {
       {seeExampl01 ? (
         <>
           <p>При использовании нескольких полей ввода данных:
-            <CodeHowText codeText={[`<input type="text" value={name} placeholder="Name" onChange={handlerName} className="mr-1"/>`, `<input type="text" value={lastName} placeholder="LastName" onChange={handlerlastName}/>`]}/>
+            <CodeHowText codeText={[`<input type="text" value={name} placeholder="Name" onChange={handlerName} className="me-1"/>`, `<input type="text" value={lastName} placeholder="LastName" onChange={handlerlastName}/>`]}/>
             Часто используется дублирование кода:
             <CodeHowText codeText={[`const handlerName = event => {`, `  setName(event.target.value)}`,`const handlerlastName = event => {`, `  setlastName(event.target.value)}`]}/>
           </p>
@@ -82,7 +82,7 @@ export const L08_listOfContent = () => {
             Применяем в компоненте:
             <CodeHowText
               codeText={[`const name = useInput("")`, `const lastName = useInput("")`, "...",
-                         '<input type="text" value={name.value} placeholder="Name" onChange={name.onChange} className="mr-1"/>',
+                         '<input type="text" value={name.value} placeholder="Name" onChange={name.onChange} className="me-1"/>',
                          '<input type="text" {...lastName} placeholder="LastName" />']}/>
 
           </p>
@@ -111,7 +111,7 @@ export const L08_listOfContent = () => {
 
             Применяем в компоненте:
             <CodeHowText
-              codeText={[`<button className="btn btn-success mr-1" onClick={name.clear}>Очистить name</button>`, "..."]}/>
+              codeText={[`<button className="btn btn-success me-1" onClick={name.clear}>Очистить name</button>`, "..."]}/>
 
           </p>
           <p>Обратите внимание, что во втором input используется {'{...lastName}'} вместо {'value={lastName.value} onChange={lastName.onChange}'}.</p>

@@ -15,10 +15,10 @@ export const L02_03_FetchPlaceholder = () => {
       <div className="card bg-light mb-3 shadow " style={{ width: "90%", maxHeight: "500px", overflow: "auto" }}>
         <div className="card-body">
           <h4> Ресурс: {type}</h4>
-          <button onClick={() => setType("users")} className="btn btn-outline-info mr-1">
+          <button onClick={() => setType("users")} className="btn btn-outline-info me-1">
             Пользователи
           </button>
-          <button onClick={() => setType("todos")} className="btn btn-outline-info mr-1">
+          <button onClick={() => setType("todos")} className="btn btn-outline-info me-1">
             Todo
           </button>
           <button onClick={() => setType("posts")} className="btn btn-outline-info">

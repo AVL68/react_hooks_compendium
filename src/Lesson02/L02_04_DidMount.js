@@ -41,13 +41,13 @@ export const L02_04_DidMount = () => {
       <div className="card bg-light mb-3 shadow " style={{ width: "90%", height: "500px", overflow: "auto" }}>
         <div className="card-body">
           <h4> Ресурс: {type}</h4>
-          <button onClick={() => setType("users")} className="btn btn-outline-info mr-1">
+          <button onClick={() => setType("users")} className="btn btn-outline-info me-1">
             Пользователи, всего {total.users}
           </button>
-          <button onClick={() => setType("todos")} className="btn btn-outline-info mr-1">
+          <button onClick={() => setType("todos")} className="btn btn-outline-info me-1">
             Todo, всего {total.todos}
           </button>
-          <button onClick={() => setType("posts")} className="btn btn-outline-info mr-5">
+          <button onClick={() => setType("posts")} className="btn btn-outline-info me-5">
             Посты, всего {total.posts}
           </button>
           <button onClick={() => deleteElement(curentStateResource(type)[0], 0)} className="btn btn-outline-danger" disabled={total[type] == 0 ? "disabled" : ""}>

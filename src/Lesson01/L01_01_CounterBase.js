@@ -16,7 +16,7 @@ function L01CounterBase() {
       <div className="card bg-light mb-3 shadow" style={{ width: "15.3rem" }}>
         <div className="card-body">
           <h4> Счетчик: {counter}</h4>
-          <button onClick={increment} className="btn btn-primary mr-1">
+          <button onClick={increment} className="btn btn-primary me-2">
             Добавить 1
           </button>
           <button onClick={decrement} className="btn btn-success">

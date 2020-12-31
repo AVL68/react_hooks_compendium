@@ -22,10 +22,10 @@ function L01CounterAsynchronousExample() {
       <div className="card bg-light mb-3 shadow" style={{ width: "22.4rem" }}>
         <div className="card-body">
           <h4> Счетчик: {counter}</h4>
-          <button onClick={incrementAsynchonous} className="btn btn-danger mr-1">
+          <button onClick={incrementAsynchonous} className="btn btn-danger me-1">
             Добавить 2
           </button>
-          <button onClick={increment} className="btn btn-primary mr-1">
+          <button onClick={increment} className="btn btn-primary me-1">
             Добавить 2
           </button>
           <button onClick={decrement} className="btn btn-success">

@@ -17,7 +17,7 @@ function L05_01_DynamicList() {
       <div className="card bg-light mb-3 shadow" style={{ width: "25.5rem" }}>
         <div className="card-body">
           <h4 style = {style}> Количество элементов: {count}</h4>
-          <button onClick={() => setCount(prev => prev + 1)} className="btn btn-primary mr-1">
+          <button onClick={() => setCount(prev => prev + 1)} className="btn btn-primary me-1">
             Добавить элемент
           </button>
           <button onClick={() => setColored(prev => !prev)} className="btn btn-warning">
