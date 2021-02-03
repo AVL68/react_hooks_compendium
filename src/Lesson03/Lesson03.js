@@ -1,15 +1,13 @@
-import React from "react";
-import ReactjsOrg from "../common/ReactjsOrg";
-import СodeHowText from "../common/СodeHowText";
-import WatchVideoLessonFromSecond from "../common/WatchVideoLessonFromSecond";
-import {L03_listOfContent} from "./L03_listOfContent";
+import React from "react"
+import ReactjsOrg from "../common/ReactjsOrg"
+import СodeHowText from "../common/СodeHowText"
+import {L03_listOfContent} from "./L03_listOfContent"
 
 export default function Lesson03() {
   return (
     <>
       <h2>
         3. Хук useRef.
-        <WatchVideoLessonFromSecond second={2253} />
       </h2>
       <p>
         useRef возвращает изменяемый ref-объект.
@@ -19,5 +17,5 @@ export default function Lesson03() {
       <L03_listOfContent />
 
     </>
-  );
+  )
 }

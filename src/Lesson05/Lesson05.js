@@ -1,15 +1,12 @@
-import React from "react";
-import ReactjsOrg from "../common/ReactjsOrg";
-// import СodeHowText from "../common/СodeHowText";
-import WatchVideoLessonFromSecond from "../common/WatchVideoLessonFromSecond";
-import {L05_listOfContent} from "./L05_listOfContent";
+import React from "react"
+import ReactjsOrg from "../common/ReactjsOrg"
+import {L05_listOfContent} from "./L05_listOfContent"
 
 export default function Lesson05() {
   return (
     <>
       <h2>
         5. Хук useCallback.
-        <WatchVideoLessonFromSecond second={3578} />
       </h2>
       <p>
         Возвращает мемоизированный колбэк.
@@ -18,6 +15,6 @@ export default function Lesson05() {
       <L05_listOfContent />
 
     </>
-  );
+  )
 }
 

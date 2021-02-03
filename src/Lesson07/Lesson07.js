@@ -1,16 +1,13 @@
-import React from "react";
-import ReactjsOrg from "../common/ReactjsOrg";
-// import СodeHowText from "../common/СodeHowText";
-import WatchVideoLessonFromSecond from "../common/WatchVideoLessonFromSecond";
-import { L07_listOfContent } from "./L07_listOfContent";
-import CodeHowText from "../common/СodeHowText";
+import React from "react"
+import ReactjsOrg from "../common/ReactjsOrg"
+import { L07_listOfContent } from "./L07_listOfContent"
+import CodeHowText from "../common/СodeHowText"
 
 export default function Lesson07() {
   return (
     <>
       <h2>
         7. Хук useReducer.
-        <WatchVideoLessonFromSecond second={5216} />
       </h2>
       <p>
         Альтернатива для useState. Принимает редюсер типа (state, action) {"=>"} newState и возвращает текущее состояние в
